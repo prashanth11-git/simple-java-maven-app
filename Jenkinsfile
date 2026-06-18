@@ -5,7 +5,7 @@ pipeline {
         stage('Pull Web Code') {
             steps {
                 // This clones a REAL web application with HTML, CSS, and images
-                git url: 'https://github.com/mdn/beginner-html-site-scripted.git', branch: 'main'
+                git url: 'https://github.com/prashanth11-git/simple-java-maven-app', branch: 'main'
             }
         }
 
